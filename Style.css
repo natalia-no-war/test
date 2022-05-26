@@ -1,0 +1,140 @@
+body, .card_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  min-width: 100vh;
+  min-height: 100vh;
+  background: #E5E5E5;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 35px;
+}
+
+.card {
+  position: relative;
+  height: 502px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.09);
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.09);
+  border-radius: 5px;
+  padding: 28px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.card_tile {
+  position: absolute;
+  top: 18px;
+  left: 5px;
+  background: #CE3535;
+  font-size: 20px;
+  font-weight: 500;
+  color: #FFFFFF;
+  padding: 9px 20px 7px;
+}
+
+.card_image {
+  background-color: #E5E5E5;
+}
+
+.card_image img {
+  width: 274px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  vertical-align: middle;
+}
+
+.card_title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 165.9%;
+  color: #222222;
+  width: 100%;
+  text-decoration: none;
+  margin-top: 40px;
+}
+
+.card_title:hover {
+  text-decoration: underline;
+}
+
+.new_card_title {
+  background: #222222;
+  text-transform: uppercase;
+}
+
+.card_price {
+  width: 100%;
+  text-align: right;
+}
+
+.card_price_original {
+  font-weight: 500;
+  font-size: 20px;
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  color: #5A5A5A;
+  margin: 20px 0 10px;
+  min-height: 24px;
+}
+
+.card_price_sale {
+  font-weight: 900;
+  font-size: 24px;
+  color: #CE3535;
+}
+
+.card_btn {
+  background: #E20000;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding: 12px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.card_btn:hover {
+  text-decoration: underline;
+}
+
+.image_btn {
+  margin-right: 10px;
+}
+/*# sourceMappingURL=Style.css.map */
